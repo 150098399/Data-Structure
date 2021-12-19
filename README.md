@@ -1,2 +1,2 @@
-# JavaScript_grammar
-They are some JavaScript_grammar test
+# LeetCode_test
+They are some LeetCode test
