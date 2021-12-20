@@ -1,10 +1,4 @@
 /**
- * @param {number} n
- * @param {number[][]} trust
- * @return {number}
- */
-
-/**
  * 
  * 基本概念：
  * 有向图节点的出度：顶点的出边条数称为该顶点的出度
@@ -14,6 +8,12 @@
  * 法官节点的入度是n-1,出度是0
  * 
  * 遍历每个节点的入度和出度，如果找到一个符合的节点即：入度 === n-1 && 出度 === 0 ，则返回该节点， 否则，返回-1
+ */
+
+/**
+ * @param {number} n
+ * @param {number[][]} trust
+ * @return {number}
  */
  var findJudge = function(n, trust) {
     const inDegrees = new Array(n + 1).fill(0);
