@@ -23,6 +23,7 @@ var romanToInt = function(s) {
   }
   return answer;
 };
-s = "M"
 
+// test
+s = "M"
 console.log(romanToInt(s))
